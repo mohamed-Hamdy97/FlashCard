@@ -11,14 +11,13 @@ class Deck extends Component {
     headerTintColor: '#fff',
     headerTitleStyle: {
       fontWeight: 'bold',
-      fontSize:25,
-      
+      fontSize: 25,
     },
   };
   render() {
     const { deckId } = this.props;
     const { questions, title } = this.props.deck;
-    
+
     return (
       <View style={styles.container}>
         <View style={styles.card}>
@@ -56,8 +55,6 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: 'white',
-    borderRadius: '5px',
-    borderColor: 'black',
     borderWidth: 1,
     padding: 50,
     marginLeft: 10,
@@ -79,7 +76,6 @@ const styles = StyleSheet.create({
     width: 150,
     height: 50,
     backgroundColor: 'white',
-    borderRadius: 0,
     borderColor: 'black',
     borderWidth: 1,
     padding: 15,
