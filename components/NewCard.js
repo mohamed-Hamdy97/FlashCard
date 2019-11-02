@@ -93,7 +93,6 @@ const styles = StyleSheet.create({
   submitBtn: {
     backgroundColor: 'black',
     padding: 12,
-    borderRadius: 3,
     height: 50,
     marginLeft: 40,
     marginRight: 40,
