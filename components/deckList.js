@@ -29,7 +29,6 @@ class DeckList extends Component {
 const styles = StyleSheet.create({
   deck: {
     backgroundColor: 'white',
-    borderRadius: '5px',
     borderColor: 'black',
     borderWidth: 1,
     padding: 15,
