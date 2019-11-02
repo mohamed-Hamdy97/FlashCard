@@ -11,5 +11,4 @@ https://review.udacity.com/#!/rubrics/1021/view
   -start dev server - expo start or npm start
 ## you can see the running of this app within:
   https://snack.expo.io/@mohamed_elnagar/flachcards
-## Note 
-this app has only been tested on iOS
+
