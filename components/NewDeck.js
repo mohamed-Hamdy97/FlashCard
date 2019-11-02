@@ -87,7 +87,6 @@ const styles = StyleSheet.create({
     height: 44,
     padding: 10,
     borderWidth: 1,
-    borderRadius: 5,
     borderColor: 'black',
     margin: 20,
     fontSize: 20,
@@ -95,7 +94,6 @@ const styles = StyleSheet.create({
   submitBtn: {
     backgroundColor: 'black',
     padding: 12,
-    borderRadius: 4,
     height: 50,
     marginLeft: 40,
     marginRight: 40,
